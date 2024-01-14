@@ -12,3 +12,16 @@ body{
     width: 600px;
     margin: 0 auto;
 }
+
+.miniContenitore{
+    width: 300px;
+    margin: 0 auto;
+}
+
+span{
+    color: red;
+}
+
+strong{
+    color: white;
+}

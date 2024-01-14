@@ -8,52 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <section class="contenitore text-center my-3">
         <div class=" bg-secondary rounded-4 px-5 py-2">
-            <h2 class="text-center text-light p-3">
-                Tenta la fortuna
-            </h2>
-            <div class="row">
-                <div class="col-6">
-                    <label for="nameSurname" class="form-label text-light fw-bold">User</label>
-                    <input id="nomeUser" type="text" class="form-control text-center" placeholder="nickname">
-                </div>
-                <div class="col-6">
-                    <label for="nameSurname" class="form-label text-light fw-bold">Numero</label>
-                    <input id="mettiNumero" type="number"  class="form-control text-center" min="1" max="6" placeholder="numero">
-                </div>
-            </div>
-            <button id="bottoneGenera" class="btn btn-secondary mt-4 p-1 rounded-1 fw-bold">
-                Attiva
+            <h1>Player VS Computer</h1>
+            <button id="bottoneGenera" class="btn btn-secondary mt-2 p-1 rounded-1 fw-bold">
+                Attiva il gioco
             </button>
         </div>
     </section>
 
-    <section class="contenitore text-center mt-3">
+    <section id="risultatoFinale" class="miniContenitore text-center mt-3">
         <div class=" bg-secondary rounded-4 p-3">
             <div class="row">
-                <div class="col-4">
-                    <div id="risultatoNomeUser" class="fw-bold text-light">
-                        User
-                    </div>
-                    <div id="numeroMio" class=" pt-3 text-light">...</div>
-                </div>
-
-                <div class="col-4">
-                    <div class="fw-bold text-light">
-                        VS
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class=" fw-bold text-light">
-                        Computer
-                    </div>
-                    <div id="computerNumero" class="pt-3 text-light">...</div>
+                <div id="risultato">
+                    <strong>...</strong>
                 </div>
             </div>
         </div>
     </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
